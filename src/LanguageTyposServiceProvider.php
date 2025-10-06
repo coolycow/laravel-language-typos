@@ -2,7 +2,9 @@
 
 namespace Coolycow\LanguageTypos;
 
-class LanguageTyposServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class LanguageTyposServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
