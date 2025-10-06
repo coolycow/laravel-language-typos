@@ -6,7 +6,7 @@
 
 # Установка
 ```shell
-composer require "coolycow/laravel-language-typos
+composer require "coolycow/laravel-language-typos"
 ```
 Далее:
 ```shell
