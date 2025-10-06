@@ -4,11 +4,30 @@
 
 Исходный пакет: https://github.com/rin-nas/language-typos
 
-# Установка
+## Установка
 ```shell
 composer require "coolycow/laravel-language-typos"
 ```
 Далее:
 ```shell
 php artisan vendor:publish --provider="Coolycow\LanguageTypos\LanguageTyposServiceProvider"
+```
+
+## Примеры использования
+```shell
+use Coolycow\LanguageTypos\LanguageTypos;
+...
+LanguageTypos::keyboardLayoutConvert($searchQuery, 'ru', 'en');
+LanguageTypos::keyboardLayoutConvert($searchQuery, 'en', 'ru');
+```
+
+## Примеры исправлений
+```text
+RU => EN:
+'Руддщ' => 'Hello',
+'Руддщ цщкдв' => 'Hello world',
+
+EN => RU:
+'~;br' => 'Ёжик',
+'Djn ghbvth ckjdjcjxtnfybz' => 'Вот пример словосочетания'
 ```
