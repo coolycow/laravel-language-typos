@@ -1,0 +1,1 @@
+# LanguageTypos Laravel Edition
