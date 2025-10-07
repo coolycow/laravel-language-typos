@@ -10,7 +10,7 @@ composer require "coolycow/laravel-language-typos"
 ```
 Далее:
 ```shell
-php artisan vendor:publish --provider="Coolycow\LanguageTypos\LanguageTyposServiceProvider"
+php artisan vendor:publish --provider="Coolycow\LaravelLanguageTypos\LanguageTyposServiceProvider"
 ```
 
 ## Примеры использования
