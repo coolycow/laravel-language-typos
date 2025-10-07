@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Coolycow\\LanguageTypos\\": "src/"
+            "Coolycow\\LaravelLanguageTypos\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Coolycow\\LanguageTypos\\LanguageTyposServiceProvider"
+                "Coolycow\\LaravelLanguageTypos\\LanguageTyposServiceProvider"
             ]
         }
     }
