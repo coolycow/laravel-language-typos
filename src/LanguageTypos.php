@@ -1,6 +1,6 @@
 <?php
 
-namespace Coolycow\LanguageTypos;
+namespace Coolycow\LaravelLanguageTypos;
 
 use Exception;
 
